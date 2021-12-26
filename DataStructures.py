@@ -143,7 +143,7 @@ d = {'Name':['Alisa','Bobby','Cathrine','Alisa','Bobby','Cathrine',
                                  'Score':[62,47,55,74,31,77,85,63,42,67,89,51]}
 d
 
-df = pd.DataFrame(d,columns=['Nmae','Exam','Subject','Score'])
+df = pd.DataFrame(d,columns=['Name','Exam','Subject','Score'])
 df
 #View a column of the dataframe in pandas:
 df['Name']
