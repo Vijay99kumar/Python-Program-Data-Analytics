@@ -144,8 +144,15 @@ d = {'Name':['Alisa','Bobby','Cathrine','Alisa','Bobby','Cathrine',
 d
 
 df = pd.DataFrame(d,columns=['Nmae','Exam','Subject','Score'])
-
 df
+#View a column of the dataframe in pandas:
+df['Name']
+
+#View two columns of the dataframe in pandas:
+df[['Name','Score','Exam']]
+
+#View first two rows of the dataframe in pandas:
+df[0:2]
 
      
  
